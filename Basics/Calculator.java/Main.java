@@ -1,3 +1,24 @@
+// Problem Statement: Take two no. Input from User and Enter the Operator(+ - / *)
+// & continue calculating until user terminates it.
+// For Example, the Output Should be:
+// Enter num1: 5
+// Enter num2: 7
+// Enter operator('+' '-' 'x' '/'): +
+// 12.0
+// (Press 'n' to stop)
+// Enter operator('+' '-' 'x' '/' 'n'): -
+// Enter num: 10
+// 2.0
+// (Press 'n' to stop)
+// Enter operator('+' '-' 'x' '/' 'n'): n
+//
+// Approach: 1. Take no. Input and Use Switch Case for Storing the right
+//              Operator(+ - / *) and Printing their Sum, Difference, Product, Division.
+//           2. Put Break Statement, to Come Out Of the Switch Case after Getting the
+//              result.
+//           3. Then use a 'for' loop and take operator input from user.
+//           4. If the operator is valid, take number input and calculate until terminated.
+
 import java.util.Scanner;
 
 public class Main {

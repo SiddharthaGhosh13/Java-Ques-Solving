@@ -1,3 +1,11 @@
+// Problem Statement: Take Input 'n' from User and Print the first
+// 'n' Fibonnaci numbers.
+// For Example, if User inputs 5, the Output Should be:
+// The first Fibonnaci numbers are: 1 1 2 3 5
+// Approach: 1. Use If-Else for the 1st and 2nd number of the series.
+//           2. Use loops for adding the previous number and continuing
+//              the series.
+
 import java.util.Scanner;
 
 public class Main{
